@@ -1,3 +1,9 @@
+React sticky note project.
+
+Add notes, save your board, load a different one from local storage.
+
+---------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Available Scripts
