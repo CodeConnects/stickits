@@ -2,13 +2,13 @@ body { background-color: lightslategray; border-top: 2px solid black; }
 
 .app { text-align: center; }
 
-.app-logo { height: 120px; width: 120px; margin:0px; pointer-events: none;
+.app-logo { height: 80px; width: 80px; margin:0px; pointer-events: none;
       vertical-align: middle; }
 
 @media (prefers-reduced-motion: no-preference) {
-    .app-logo { animation: App-logo-spin infinite 20s linear; }
+    .app-logo { animation: app-logo-spin infinite 20s linear; }
 }
-@keyframes App-logo-spin {
+@keyframes app-logo-spin {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
 }
