@@ -1,3 +1,5 @@
+// pm2 start npm --name "stickits main" -- start
+
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
@@ -24,6 +26,7 @@ function App() {
         <LoadButton id="load-btn" className="dash-btn" text="Load Board" />
 
         <div id="sticky-notes"></div>
+        
       </section>
 
     </div>
