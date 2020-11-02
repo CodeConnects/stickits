@@ -1,13 +1,13 @@
 import React from 'react';
 
-const NewButton = ({ id, className, text }) => {
+const NewButton = props => {
     
     const handleClick = (event) => {
         event.preventDefault();
         alert('new');
     }
 
-    return <button id={id} className={className} onClick={handleClick}>{text}</button>;
+    return <button id={props.id} className={props.className} onClick={handleClick}>{props.text}</button>;
 }
 
 export default NewButton;

@@ -1,13 +1,13 @@
 import React from 'react';
 
-const SaveButton = ({ id, className, text }) => {
+const SaveButton = props => {
     
     const handleClick = (event) => {
         event.preventDefault();
         alert('save');
     }
 
-    return <button id={id} className={className} onClick={handleClick}>{text}</button>;
+    return <button id={props.id} className={props.className} onClick={handleClick}>{props.text}</button>;
 }
 
 export default SaveButton;
