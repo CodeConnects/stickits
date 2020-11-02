@@ -22,7 +22,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# VSCode files
 *.code-workspace
 
+# images
 *.jpg
 *.png
+
+# file copies
+old.*
