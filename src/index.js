@@ -1,8 +1,14 @@
+// main React classes
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+// main app and styles
 import './index.css';
 import App from './App';
+
+// other scripts
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
