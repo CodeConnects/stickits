@@ -6,10 +6,10 @@ import logo from '../logo-57.png';
 
 const Header = () => {
     return (
-        <header className="app-header">
+        <header id="main-footer" className="app-header">
             <h2>
                 <img src={logo} className="app-logo" alt="logo" />
-                Sticky Note Widgets
+                Sticky Note Maker
             </h2>
         </header>
     );
