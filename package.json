@@ -15,7 +15,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "spin": "pm2 start npm --name 'stickits main' -- start",
+    "monitor": "pm2 list",
+    "kill": "pm2 kill"
   },
   "eslintConfig": {
     "extends": [
