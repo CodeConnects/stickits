@@ -7,6 +7,8 @@ const SaveButton = props => {
         alert('save');
     }
 
+    console.log(props);
+
     return <button id={props.id} className={props.className} onClick={handleClick}>{props.text}</button>;
 }
 

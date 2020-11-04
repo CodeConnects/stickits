@@ -43,14 +43,15 @@ class NewButton extends React.Component {
     
     render() {
         return (
-            <div id="main-container">
-                <textarea rows="16" cols="20" value={this.state.postVal} onChange={this.handleChange} ></textarea>
-                <div >
-                    <input  type="submit" className="button" onClick={this.appendData}  value="Append"/>
-                    <input  type="submit" className="button" onClick={this.prependData}   value="Prepend"/>
+            <div id="new-btn-wrap">
+                <div id="main-container">
+                    <textarea rows="16" cols="20" value={this.state.postVal} onChange={this.handleChange} ></textarea>
+                    <div >
+                        <input  type="submit" className="button" onClick={this.appendData}  value="Append"/>
+                        <input  type="submit" className="button" onClick={this.prependData}   value="Prepend"/>
+                    </div>
+                    <div id="display-data-Container">{this.displayData}</div>
                 </div>
-                <div id="display-data-Container">{this.displayData}</div>
-
             </div>
         );
     }
