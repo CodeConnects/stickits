@@ -1,4 +1,4 @@
-React sticky note project.
+#React sticky note project.#
 
 Add sticky notes, save your board, load a saved board, toggle between saved boards.
 
