@@ -9,7 +9,7 @@ const Header = () => {
         <header id="main-footer" className="app-header">
             <h2>
                 <img src={logo} className="app-logo" alt="logo" />
-                Sticky Note Maker
+                Sticky Note Board
             </h2>
         </header>
     );
