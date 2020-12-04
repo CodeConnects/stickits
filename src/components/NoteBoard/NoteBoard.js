@@ -7,40 +7,53 @@ import StickyNote from '../StickyNote/StickyNote.js';
 //require("downloadjs")(data, strFileName, strMimeType);
 
 const NoteBoard = () => {
+    
+    // array of sticky note ids
     const [list, setList] = useState([])
-    const [number, setNumber] = useState(0);
 
-    // methods to work with the notes
+    // counter for total number of stickies
+    const [number, setNumber] = useState(1);
+
+    /*************************************************/
+    /* methods to work with the notes */
+    /*************************************************/
+    
+    // create a new blank note
     function newNote() {
-        console.log("make a new sticky on this noteboard");
-        const num = (number+1);
-        const newList = list.concat({ title: 'title #'+num, body: num+' body', count: num, uuid: uuidv4() });
+        const newList = list.concat({ count: number, uuid: uuidv4(), title: null, body: null });
         setList(newList);
-        setNumber(num);
+
+        // move the counter forward and resave
+        setNumber(number+1);
     }
+
+    // clear out the List array and reset the Number of notes
     function deleteNotes() {
         setList([]);
-        setNumber(0);
+        setNumber(1);
     }
 
+    // trigger a blank re-render of all StickyNotes by changing the unique Key IDs
     function clearNotes() {
-        console.log("clear all stickies on this noteboard");
-
-        const clearList = list.map( item => {
-            item['title'] = item['body'] = ' ';
-            return item;
+        const newList = list.map(entry => {
+            entry.uuid = uuidv4();
+            entry.title = null;
+            entry.body = null;
+            return entry;
         });
-
-        setList(clearList);
+        setList(newList);
     }
 
+    /*
     function saveNotes() {
         console.log("save this noteboard");
         //download("hello world", "react-text.txt", "text/plain");
     }
+
     function loadNotes () {
         console.log("load a saved noteboard");
     }
+    */
 
     return (
 
@@ -50,15 +63,17 @@ const NoteBoard = () => {
             <Button onClick={clearNotes} id="clear-btn" className="dash-btn" text="Clear All" />
             <Button onClick={deleteNotes} id="delete-btn" className="dash-btn" text="Delete All" />
 
+            {/*
             <span id="sticky-btn-spacer"></span>
 
             <Button onClick={saveNotes} id="save-btn" className="dash-btn" text="Save Board" />
             <Button onClick={loadNotes} id="load-btn" className="dash-btn" text="Load Board" />
+            */}
 
             <div id="sticky-notes">
                 {
                     list.map(note => (
-                        <StickyNote key={note.uuid} title={note.title} body={note.body} count={note.count} />
+                        <StickyNote key={note.uuid} count={note.count} />
                     ))
                 }
             </div>
