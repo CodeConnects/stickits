@@ -5,6 +5,7 @@ import Button from '../Button/Button.js';
 import StickyNote from '../StickyNote/StickyNote.js';
 
 //require("downloadjs")(data, strFileName, strMimeType);
+// downloadjs
 
 const NoteBoard = () => {
     
