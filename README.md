@@ -1,4 +1,4 @@
-## Sticky Notes ~ built with next.js and react-bootstrap ##
+## Sticky Notes ~ next.js / react-bootstrap ##
 
 Add, clear, and delete sticky notes
 
