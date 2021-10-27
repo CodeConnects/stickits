@@ -39,7 +39,7 @@ body { background-color: lightslategray; border-top: 2px solid black; }
 
 .app { text-align: center; }
 
-.app-logo { height: 50px; width: 50px; margin:0px; pointer-events: none;
+.app-logo { height: 57px; width: 57px; margin:0px; pointer-events: none;
       vertical-align: middle; border-radius: 25px; margin-right: 10px; }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -56,7 +56,7 @@ body { background-color: lightslategray; border-top: 2px solid black; }
 
 .app-header h2 { font-size: 24px; line-height: 120px; margin:0px; }
 
-.dash-btn { background-color: #b7eefd; padding:4px 10px; border-radius:4px;
+.dash-btn { padding:4px 10px; border-radius:4px;
     cursor: pointer; margin: 4px; }
 
 span { margin-left: 10px; color: #444; }
@@ -65,13 +65,13 @@ span { margin-left: 10px; color: #444; }
 
 .sticky-wrap { margin:0px auto; padding-top:20px; background: #f1f1d4; }
 
-#sticky-notes { background-color: lightslategray; border-top:2px solid black;
-    margin-top:20px; }
+#sticky-notes { border-top:8px solid lightslategray; 
+    border-bottom: 38px solid #f1f1d4; margin-top:20px; }
 
 .sticky-note { height: 200px; width: 200px; color: #7f6c04; background: #f9dd45;
     border-radius: 10px; border: 0px; font-family: Helvetica, Arial, sans-serif;
     font-size: 13px; box-shadow: 2px 2px 10px rgba(0,0,0,0.4); overflow: hidden;
-    margin: 20px; display: inline-block; }
+    margin: 20px 20px -20px; display: inline-block; }
 
 .sticky-title { font:20px bold; text-align: center; padding: 6px 0px; margin: 0px; 
     height:24px; width: 200px; border:none; border-bottom: 1px solid gray; }
