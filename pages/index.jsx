@@ -2,7 +2,8 @@
 
 import Head from 'next/head'
 import { Container } from 'react-bootstrap'
-import Header from '../components/Header/Header'
+import GlobalHeader from '../components/GlobalHeader/GlobalHeader'
+import Header from '../components/MastHead/MastHead'
 import NoteBoard from '../components/Noteboard/Noteboard'
 import Footer from '../components/Footer/Footer'
 
@@ -12,9 +13,12 @@ export default function App() {
 
     <Head>
       <title>Is Stickits</title>
+
+      <GlobalHeader />
+
     </Head>
     
-      <Header />
+      <MastHead />
 
       <NoteBoard />
 

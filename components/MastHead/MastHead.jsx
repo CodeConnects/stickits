@@ -1,4 +1,4 @@
-export default function Header() {
+export default function MastHead() {
     return (
         <header id="masthead" className="app-header">
             <h2>
