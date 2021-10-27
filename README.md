@@ -1,4 +1,4 @@
-## Sticky Notes ~ next.js / react-bootstrap ##
+## Sticky Notes ~ next.js & react-bootstrap ##
 
 Add, clear, and delete sticky notes
 
