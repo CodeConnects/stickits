@@ -1,8 +1,8 @@
-import React from 'react';
-import { v4 as uuidv4 } from 'uuid';
+import React from 'react'
+import { v4 as uuidv4 } from 'uuid'
+import { Button } from 'react-bootstrap'
 
-import Button from '../Button/Button.js';
-import StickyNote from '../StickyNote/StickyNote.js';
+import StickyNote from '../StickyNote/StickyNote.js'
 
 //require("downloadjs")(data, strFileName, strMimeType);
 // downloadjs
@@ -60,15 +60,15 @@ export default function NoteBoard () {
 
         <section id="note-board" className="sticky-wrap">
 
-            <Button onClick={newNote} id="new-btn" className="dash-btn" text="New Sticky" />
-            <Button onClick={clearNotes} id="clear-btn" className="dash-btn" text="Clear All" />
-            <Button onClick={deleteNotes} id="delete-btn" className="dash-btn" text="Delete All" />
+            <Button onClick={newNote} id="new-btn" className="dash-btn">New Sticky</Button>
+            <Button onClick={clearNotes} id="clear-btn" className="dash-btn">Clear All</Button>
+            <Button onClick={deleteNotes} id="delete-btn" className="dash-btn">Delete All</Button>
 
             {/*
             <span id="sticky-btn-spacer"></span>
 
-            <Button onClick={saveNotes} id="save-btn" className="dash-btn" text="Save Board" />
-            <Button onClick={loadNotes} id="load-btn" className="dash-btn" text="Load Board" />
+            <Button onClick={saveNotes} id="save-btn" className="dash-btn">Save Board</Button>
+            <Button onClick={loadNotes} id="load-btn" className="dash-btn">Load Board</Button>
             */}
 
             <div id="sticky-notes">
@@ -80,5 +80,5 @@ export default function NoteBoard () {
             </div>
         
         </section>
-    );
+    )
 }
