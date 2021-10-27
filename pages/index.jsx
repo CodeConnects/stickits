@@ -2,9 +2,9 @@
 
 import Head from 'next/head'
 import { Container } from 'react-bootstrap'
-import Header from '../src/components/Header/Header';
-import NoteBoard from '../src/components/NoteBoard/NoteBoard';
-import Footer from '../src/components/Footer/Footer';
+import Header from '../components/Header/Header';
+import NoteBoard from '../components/NoteBoard/NoteBoard';
+import Footer from '../components/Footer/Footer';
 
 export default function App() {
   return (    
