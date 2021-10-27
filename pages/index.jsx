@@ -3,7 +3,7 @@
 import Head from 'next/head'
 import { Container } from 'react-bootstrap'
 import GlobalHeader from '../components/GlobalHeader/GlobalHeader'
-import Header from '../components/MastHead/MastHead'
+import MastHead from '../components/MastHead/MastHead'
 import NoteBoard from '../components/Noteboard/Noteboard'
 import Footer from '../components/Footer/Footer'
 
