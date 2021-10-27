@@ -1,15 +1,11 @@
 ## Sticky Notes ~ built with next.js and react-bootstrap ##
 
-Add sticky notes, save your board, load a saved board, toggle between saved boards.
+Add sticky notes for now.
+
+Soon, save your board, load a saved board, and toggle between saved boards.
 
 ---------------------------
 
-# Next.js and other commands #
-
-npm run dev
-
-npm run build
-
-npm run start
+https://stickits.app/
 
 ---------------------------
