@@ -4,8 +4,12 @@ Add sticky notes, save your board, load a saved board, toggle between saved boar
 
 ---------------------------
 
-# Next.js commands #
+# Next.js and custom commands #
 
+npm run dev
 
+npm run build
+
+npm run start
 
 ---------------------------
