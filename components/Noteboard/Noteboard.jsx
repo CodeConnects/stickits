@@ -60,7 +60,7 @@ export default function NoteBoard () {
 
         <section id="note-board" className="sticky-wrap">
 
-            <Button onClick={newNote} variant="success" id="new-btn" className="dash-btn">New Sticky</Button>
+            <Button onClick={newNote} variant="success" id="new-btn" className="dash-btn">New Note</Button>
             <Button onClick={clearNotes} variant="warning" id="clear-btn" className="dash-btn">Clear All</Button>
             <Button onClick={deleteNotes} variant="danger" id="delete-btn" className="dash-btn">Delete All</Button>
 
