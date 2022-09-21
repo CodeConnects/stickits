@@ -7,7 +7,8 @@ code {
 }
 
 .md-container {
-  max-width: 800px;
+  /*max-width: 800px;*/
+  max-width: 100%;
   padding-top: 2rem;
 }
 
@@ -35,9 +36,9 @@ code {
 /******************************/
 /******************************/
 
-body { background-color: lightslategray; border-top: 2px solid black; }
+body { background-color: #f1f1d4; /*border-top: 8px solid lightslategray;*/ }
 
-.app { text-align: center; }
+div.app.container { text-align: center; width: 100%; max-width: 100%; padding:0px; }
 
 .app-logo { height: 57px; width: 57px; margin:0px; pointer-events: none;
       vertical-align: middle; border-radius: 25px; margin-right: 10px; }
@@ -50,9 +51,8 @@ body { background-color: lightslategray; border-top: 2px solid black; }
     to { transform: rotate(360deg); }
 }
 
-.app-header { background-color: #282c34; border-top: 30px solid #f1f1d4;
-    display: flex; flex-direction: column; align-items: center;
-    justify-content: center; color: white; margin-top: 8px; }
+.app-header { background-color: #282c34; display: flex; flex-direction: column; align-items: center;
+    justify-content: center; color: white; }
 
 .app-header h2 { font-size: 24px; line-height: 120px; margin:0px; }
 
@@ -65,8 +65,7 @@ span { margin-left: 10px; color: #444; }
 
 .sticky-wrap { margin:0px auto; padding-top:20px; background: #f1f1d4; }
 
-#sticky-notes { border-top:8px solid lightslategray; 
-    border-bottom: 38px solid #f1f1d4; margin-top:20px; }
+#sticky-notes { border-top:8px solid #282c34; margin-top:20px; }
 
 .sticky-note { height: 200px; width: 200px; color: #7f6c04; background: #f9dd45;
     border-radius: 10px; border: 0px; font-family: Helvetica, Arial, sans-serif;
