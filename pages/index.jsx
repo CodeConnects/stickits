@@ -12,7 +12,7 @@ export default function App() {
     <Container className="app">
 
     <Head>
-      <title>Is Stickits</title>
+      <title>Stickits</title>
 
       <GlobalHeader />
 
