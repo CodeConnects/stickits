@@ -3,7 +3,7 @@ export default function MastHead() {
         <header id="masthead" className="app-header">
             <h2>
                 <img src="/sunny.png" className="app-logo" alt="logo" />
-                Notes
+                Sticky Notes
             </h2>
         </header>
     )
