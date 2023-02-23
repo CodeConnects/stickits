@@ -7,7 +7,7 @@ import MastHead from '../components/MastHead/MastHead'
 import NoteBoard from '../components/Noteboard/Noteboard'
 import Footer from '../components/Footer/Footer'
 
-export default function App() {
+export default function Home() {
   return (    
     <Container className="app">
 
