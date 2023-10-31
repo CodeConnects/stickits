@@ -1,9 +1,7 @@
-## Sticky Notes ~ next.js & react-bootstrap ##
+## Sticky Notes ~ React.js, Next.js & react-bootstrap
 
-Add, clear, and delete sticky notes
+Add, clear, resize, and delete sticky notes
 
----------------------------
-
-https://stickits.app/
+https://stickits.vercel.app/
 
 ---------------------------
